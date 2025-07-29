@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "aws-demo": {
+      "command": "node",
+      "args": ["server.js"],
+      "cwd": "/path/to/your/mcp-server-aws-demo",
+      "env": {
+        "AWS_ACCESS_KEY_ID": "",
+        "AWS_SECRET_ACCESS_KEY": "",
+        "AWS_SESSION_TOKEN": "",
+        "AWS_REGION": "us-east-2",
+        "DEFAULT_LOG_GROUP": "/aws/lambda/your-lambda-function-name"
+      }
+    }
+  }
+}
